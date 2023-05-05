@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'VT323', monospace;
+    overflow-x: hidden;
+    cursor: url("../images/cursor.png"), default;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(26, 26, 26);
+}
+
+nav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid rgb(151, 81, 40);
+    background-color: rgb(102, 47, 15);
+    width: 400px;
+    height: 90vh;
+}
+
+nav div h1{
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    background-color: antiquewhite;
+    margin-bottom: 100px;
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 90%;
+    outline: none;
+    background-color: rgb(133, 85, 57);
+    border-bottom: 5px rgb(102, 47, 15);
+}

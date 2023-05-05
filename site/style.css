@@ -227,6 +227,36 @@ body{
     width: 450px;
 }
 
+/* footer */
+
+footer{
+    bottom: 0;
+    z-index: 10;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+}
+
+a{
+    overflow: hidden;
+}
+
+footer img{
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
+footer a img{
+    overflow: hidden;
+    margin: 10px;
+    width: 50px;
+    height: 50px;
+}
+
 /* media screens */
 
 @media screen and (max-width: 1280px){
@@ -319,17 +349,35 @@ body{
 @media screen and (max-width: 1090px){
 
     .text{
+        margin-top: 100px;
         overflow: hidden;
-        height: 30;
+        height: 40%;
+    }
+
+    .text h1{
+        font-size: 25pt;
     }
 
     .text p{
-        font-size: 11pt;
+        font-size: 9pt;
+    }
+
+}
+
+@media screen and (max-width: 1024px){
+
+    .text{
+        height: 25;
     }
 
 }
 
 @media screen and (max-width: 700px){
+
+    .text h1{
+        font-size: 20pt;
+        width: 70%;
+    }
 
     .jogos{
         margin-top: 10vh;
@@ -448,6 +496,14 @@ body{
 
     .d5 img:hover{
         width: 200px;
+    }
+
+}
+
+@media screen and (max-width: 500px){
+
+    .text{
+        margin-top: 80vh;
     }
 
 }
