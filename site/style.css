@@ -227,6 +227,61 @@ body{
     width: 450px;
 }
 
+/* quinta parte */
+
+.nav5{
+    display: flex;
+    flex-direction: column-reverse;
+    color: white;
+    overflow: hidden;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(26, 26, 26);
+}
+
+.text5{
+    width: 70%;
+    margin-bottom: 50px;
+}
+
+.text5 h1{
+    font-size: 40pt;
+    margin-bottom: 50px;
+}
+
+.text5 p{
+    font-size: 20pt;
+}
+
+.d6{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d6 img{
+    width: 200px;
+}
+
+.d6 img:hover{
+    width: 250px;
+}
+
+.d7{
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.d7 img{
+    width: 450px;
+}
+
 /* footer */
 
 footer{
