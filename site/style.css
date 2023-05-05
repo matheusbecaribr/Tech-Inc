@@ -242,6 +242,7 @@ body{
 }
 
 .text5{
+    overflow: hidden;
     text-align: center;
     width: 70%;
     margin-bottom: 50px;
@@ -257,6 +258,7 @@ body{
 }
 
 .d7{
+    overflow: hidden;
     text-align: center;
     width: 50%;
     height: 100vh;
@@ -276,6 +278,7 @@ body{
 }
 
 .d8{
+    overflow: hidden;
     width: 50%;
     height: 100vh;
     display: flex;
