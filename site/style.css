@@ -13,6 +13,10 @@ body{
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+}
+
 /* primeira parte */
 
 .nav1{
