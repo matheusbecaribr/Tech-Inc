@@ -245,6 +245,10 @@ a{
     background-color: rgb(26, 26, 26);
 }
 
+.botoes{
+    overflow: hidden;
+}
+
 .text5{
     overflow: hidden;
     text-align: center;
