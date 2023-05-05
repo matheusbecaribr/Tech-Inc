@@ -230,6 +230,7 @@ body{
 /* quinta parte */
 
 .nav5{
+    text-align: center;
     display: flex;
     flex-direction: row-reverse;
     color: white;
