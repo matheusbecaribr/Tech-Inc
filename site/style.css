@@ -441,6 +441,10 @@ footer a img{
     .text{
         height: 25;
     }
+    
+    .nav4{
+        display: none;
+    }
 
 }
 
