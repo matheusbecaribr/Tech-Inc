@@ -253,7 +253,7 @@ body{
     font-size: 20pt;
 }
 
-.d6{
+.d7{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -262,15 +262,15 @@ body{
     align-items: center;
 }
 
-.d6 img{
+.d7 img{
     width: 200px;
 }
 
-.d6 img:hover{
+.d7 img:hover{
     width: 250px;
 }
 
-.d7{
+.d8{
     width: 50%;
     height: 100vh;
     display: flex;
@@ -278,7 +278,7 @@ body{
     align-items: center;
 }
 
-.d7 img{
+.d8 img{
     width: 450px;
 }
 
