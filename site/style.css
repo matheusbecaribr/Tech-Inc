@@ -182,7 +182,7 @@ body{
     width: 100%;
     height: 100vh;
     background-color: rgb(26, 26, 26);
-    border-bottom: rgb(219, 153, 90);
+    border-bottom: 50px rgb(219, 153, 90);
 }
 
 .text4{
