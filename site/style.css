@@ -269,6 +269,7 @@ body{
 }
 
 .d7 img{
+    overflow: hidden;
     margin: 50px;
     width: 200px;
 }
